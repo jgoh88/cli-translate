@@ -1,0 +1,22 @@
+{
+  "name": "cli-image-compress",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "bin/index.mjs",
+  "bin": {
+    "cli-translate": "./bin/index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "translate": "^2.0.2",
+    "yargs": "^17.7.2"
+  }
+}
